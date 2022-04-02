@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: zookeeper-client-provider
+  cloud:
+    zookeeper:
+      # /etc/hosts 127.0.0.1 zoo1 zoo2 zoo3
+      connect-string: "zoo1:2181,zoo2:2182,zoo3:2183"
+
+server:
+  port: 7650
